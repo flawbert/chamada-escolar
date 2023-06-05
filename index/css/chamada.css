@@ -1,0 +1,47 @@
+*{
+    font-size: 18px;
+
+}
+:root{
+    --primary-color: #1693E0;
+    --clean-primary-color: #F1EF93;
+    --dark-primary-color: #160A93;
+    --secondary-color: #95F0BD;
+    --clean-secondary-color: #8BC2E6;
+    --neutral-clean-color: #EEEEEE;
+    --neutral-dark-color: #282831;
+}
+body{
+    background-color: var(--clean-secondary-color);
+}
+h1, h2{
+    text-align: center;
+}
+main{
+    background-color: var(--primary-color);
+    padding: 32px;
+    border-radius: 8px;
+}
+main > button{
+    background-color: var(--neutral-dark-color);
+    color: var(--neutral-clean-color);
+    padding: 0.5em;
+    font-weight: bolder;
+    border-radius: 8px;
+    float: left;
+}
+.btn-padrao{
+    background-color: var(--neutral-dark-color);
+    color: var(--neutral-clean-color);
+    padding: 0.5em;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+.modal-content{
+    background-color: var(--primary-color);
+    color: white;
+}
+.modal-header{
+    background-color: var(--dark-primary-color);
+    color: white;
+}
